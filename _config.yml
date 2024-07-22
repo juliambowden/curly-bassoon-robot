@@ -1,0 +1,23 @@
+remote_theme: chrisrhymes/bulma-clean-theme@v0.14.0
+
+permalink: pretty
+
+lang: en
+title: PhysiCell
+tagline: PhysiCell User Guide
+description: >
+  The website for PhysiCell
+fixed_navbar: top
+favicon: /images/FertigLabFavicon.png
+footer_menu: footer_menu
+
+exclude: 
+  - Gemfile
+  - clean-theme.gemspec
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
