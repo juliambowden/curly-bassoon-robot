@@ -1,8 +1,8 @@
 ---
 
 layout: page
-title: PhysiCell
-subtitle: PhysiCell Guide
+title: PhysiCell Studio
+subtitle: PhysiCell Studio Guide
 hero_image: /CoGAPSGuide/images/hero.jpg
 <!-- hero_height: is-fullwidth -->
 hero_darken: true
