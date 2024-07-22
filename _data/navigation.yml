@@ -1,4 +1,4 @@
 - name: Dependencies
   link: /dependencies/
-- name: FAQ
-  link: /faq/
+- name: Installing and Running
+  link: /installing-and-running/
