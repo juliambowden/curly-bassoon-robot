@@ -3,10 +3,10 @@ remote_theme: chrisrhymes/bulma-clean-theme@v0.14.0
 permalink: pretty
 
 lang: en
-title: PhysiCell
-tagline: PhysiCell User Guide
+title: PhysiCell Studio
+tagline: PhysiCell Studio User Guide
 description: >
-  The website for PhysiCell
+  The website for PhysiCell Studio
 fixed_navbar: top
 favicon: /images/FertigLabFavicon.png
 footer_menu: footer_menu
