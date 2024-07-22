@@ -1,1 +1,4 @@
-
+- name: Troubleshooting
+  link: /troubleshooting/
+- name: FAQ
+  link: /faq/
