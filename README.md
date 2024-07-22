@@ -1,1 +1,1 @@
-# PhysiCell
+# PhysiCell Studio
