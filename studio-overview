@@ -1,0 +1,42 @@
+---
+
+hero_image: /images/hero.jpg
+<!-- hero_height: is-fullwidth -->
+hero_darken: true
+
+---
+
+# Studio Overview
+
+![](./images/tabs_only.png)
+
+PhysiCell Studio consists of multiple tabs, each representing a logical grouping of model parameters and/or functionality.
+Each tab will be described in detail in the sections below, but briefly they are:
+* `Config Basics` - define the domain and other misc parameters of the simulation
+* `Microenvironment` - define the microenvironment, i.e., one or more substrates (signals) and their parameters
+* `Cell Types` - define one or more cell types and the phenotype parameters associated with each
+* `User Params` - define optional "user" parameters that are unique to a particular model 
+* `Rules` - optional "rules" associated with a cell type that define cell behaviors in response to signals
+* `ICs` - convenience functionality to define simple 2D initial conditions (ICs) for cells
+* `Run` - run a simulation and show the normal PhysiCell output to the terminal
+* `Plot` - provide plotting options for visualizing output results (even while the simulation is being run)
+
+
+[[Config Basics](#config-basics)] [[Microenvironment](#microenvironment)] [[Cell Types](#cell-types)] [[User Params](#user-params)] [[Rules](#rules)] [[ICs](#ics-initial-conditions)] [[Run](#run)] [[Plot](#plot)] 
+
+---
+## Sample model: virus-macrophage
+
+We will illustrate the Studio using the PhysiCell virus-macrophage model, i.e., we assume you have created
+this model:
+```
+~/PhysiCell$ make reset
+~/PhysiCell$ make virus-macrophage-sample
+~/PhysiCell$ make 
+
+# If the resulting config/PhysiCell_settings.xml is in a "flattened" format (which the Studio requires)
+# then you should be able to run:
+~/PhysiCell$ python studio/bin/studio.py -p -e virus-sample
+
+# However, if you happen to have an older, hierarchical .xml format then you will need to use the flattened one in the studio folder:
+~/PhysiCell$ python studio/bin/studio.py -c studio/config/virus_macrophage.xml -e virus-sample
