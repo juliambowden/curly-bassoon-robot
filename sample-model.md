@@ -1,3 +1,11 @@
+---
+
+hero_image: /images/hero.jpg
+<!-- hero_height: is-fullwidth -->
+hero_darken: true
+
+---
+
 ## Sample model: virus-macrophage
 
 We will illustrate the Studio using the PhysiCell virus-macrophage model, i.e., we assume you have created
